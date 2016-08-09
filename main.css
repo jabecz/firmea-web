@@ -7,13 +7,51 @@ body {
   color: #003361;
 }
 
+p {
+  margin: 24px 0;
+}
+
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page-header {
+  min-width: 280px;
+  margin: 20px;
+}
+
 .site-logo {
-  display: block;
-  width: 280px;
-  height: auto;
-  margin: 20px auto;
+  width: 100%;
+}
+@media (min-width: 481px) {
+  .site-logo {
+    width: 280px;
+  }
 }
 
 .content {
+  min-width: 280px;
   margin: 40px 20px;
+}
+
+@media (min-width: 769px) {
+  .content-left {
+    width: 48%;
+    float: left;
+  }
+  .content-right {
+    width: 48%;
+    float: right;
+  }
+  .content-left {
+    //padding-right: 10px;
+  }
+  .content-right {
+    //padding-left: 10px;
+  }
+}
+
+h2 {
+  clear: left;
 }
