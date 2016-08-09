@@ -39,6 +39,7 @@ p {
   .content-left {
     width: 48%;
     float: left;
+    clear: left;
   }
   .content-right {
     width: 48%;
@@ -49,6 +50,10 @@ p {
   }
   .content-right {
     //padding-left: 10px;
+  }
+  .contact {
+    background-image: url('prazska1.png');
+    background-position: top right;
   }
 }
 
