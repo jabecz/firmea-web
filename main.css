@@ -1,5 +1,10 @@
-body {
+html {
+  font: 15px/24px "Open Sans",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 
+body {
+  #color: #00529e;
+  color: #003361;
 }
 
 .site-logo {
@@ -7,4 +12,8 @@ body {
   width: 280px;
   height: auto;
   margin: 20px auto;
+}
+
+.content {
+  margin: 40px 20px;
 }
